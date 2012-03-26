@@ -27,7 +27,6 @@ func printTable(){
 func printAllTable(){
 	for i:=0; i<10; i++{
 		fmt.Println(i, " : ", table[i])
-	}
 }
 
 func insertItem(key int){
