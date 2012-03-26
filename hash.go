@@ -11,6 +11,7 @@ func main(){
 	insertItem(3)
 	insertItem(13)
 	printTable()
+	fmt.Println("key : ", 13, searchTable(13))
 }
 func printTable(){
 	for i:=0; i<10; i++{
@@ -44,3 +45,21 @@ func initialiseTable(){
 		table[i] = 0
 	}
 }
+
+func searchTable(key int) int{
+	location := key % 10
+	count := 0
+	for ; table[location] != 0 && table[location] != key && count < 10 ;{
+		count++
+		if location == 9{
+			location = 0
+		}else{
+			location++
+		}
+	}
+	if table[location] == key{
+		return location
+	}
+	return -1
+}
+
