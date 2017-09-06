@@ -14,7 +14,6 @@
  * DFS(Depth first search)
  * BFS(Breadth first search)
  * Spanning tree
- * Shortest path
  * Dijkstra algorithm
 ### Testing & Profile
  * Testing
