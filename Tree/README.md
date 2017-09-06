@@ -1,6 +1,6 @@
 ## Tree
 
-![Tree](img/tree/tree.png)
+![](../img/tree/tree.png)
 
 ## 용어
  * Root : tree의 가장 꼭대기에 있는 node로 parent를 가지지 않는 node
