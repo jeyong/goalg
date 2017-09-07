@@ -26,7 +26,7 @@
 
 
 ### Quick sort
-![](../img/sorting/mergesort.png)
+![](../img/sorting/quicksort.png)
 
 효율적인 정렬 알고리즘.
 1959년 영국 컴퓨터 과학자 Tony Hoare가 개발.
