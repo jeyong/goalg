@@ -53,3 +53,19 @@
   * 5단계
    * unvisted node를 가장 작은 임시 distance값으로 설정. 
    * 2단계로 가서 다시 시작
+----
+ * 구현
+  * 1단계
+   * 모든 node에 distance 값을 할당 (초기 node에 대해서 0, 다른 node는 Infinity)
+  * 2단계
+   * 초기 node를 cur node로 설정. 다른 node는 unvisited set에 넣기.
+  * 3단계
+   * cur node 기준 neighbor node에 대한 distance 계산. 새로 계산한 값과 기존 값 중에 작은 값으로 update. (cur node의 distance + edge distance)
+  * 4단계
+   * cur node 기준 모든 neighbor node를 처리할 때 cur node를 visited로 처리해야하므로 unvisited set에서 삭제. visited node는 다시 체크 안함.
+  * 5단계
+   * 목적지 node가 visited로 되거나 unvisited set에 있는 node들 중에서 가장 작은 distance가 infinity면 종료. 알고리즘 종료!
+  * 6단계
+   * 가장 작은 distance를 가지는 unvisited node를 선택해서 cur node로 지정하고 단계 3으로 가서 계속 진행
+
+ 
