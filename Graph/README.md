@@ -36,6 +36,8 @@
  * 
 
 ### Dijkstra algorithm
+![](../img/graph/dijkstraanimation.gif)
+
  * 2개 node간 최단 경로를 찾는 알고리즘
  * 구현
   * 1단계
@@ -68,4 +70,3 @@
   * 6단계
    * 가장 작은 distance를 가지는 unvisited node를 선택해서 cur node로 지정하고 단계 3으로 가서 계속 진행
 
- 
