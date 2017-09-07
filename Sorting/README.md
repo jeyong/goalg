@@ -14,6 +14,7 @@
  * Conquer : 반으로 나눈 부분에 대해서 sort
  * Merge : 합치기
 
+
 #### Array vs. Linked List 
 
 
