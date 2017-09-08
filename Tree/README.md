@@ -19,3 +19,26 @@
  * Binary Tree
  * AVL
  * Red-black tree
+
+## Binary Tree
+ * tree형태의 자료구조
+ * 각 node는 최대 2개의 children을 가질 수 있음
+   * left, right child
+ * 자료구조 자체로 사용되기 보다는
+   * binary search tree, binary heap으로 사용
+   * 효과적인 search 및 sort
+ * 동작
+   * Insert
+   * Delete
+   * Traverse
+     * Pre-order, In-order, Post-order
+     * Depth-First Order
+       * root node에서 가장 멀리 있는 node를 먼저 방문
+       * graph의 DFS와 차이점
+         * visited한 모든 node를 기억할 필요없음.
+         * tree에는 cycle이 없음
+       * pre-order의 한 형태
+     * Breadth-First Order
+       * root node에서 가장 가까운 node를 먼저 방문
+       
+ 
