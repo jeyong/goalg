@@ -32,7 +32,7 @@ func (d *Dijkstra) Init(src, des, n int, graph [][]int) {
 	}
 }
 
-func (d *Dijkstra) minVertex() int {
+func (d *Dijkstra) pickNextVertex() int {
 	minVer := -1
 	min := INF 
 	for i:=0; i<d.n-1; i++ {
@@ -57,7 +57,7 @@ func (d *Dijkstra) findShortestPath(){
 	
 	for i:=0; i<4-1; i++ {
 		//2. choose vertex
-		v := d.minVertex()
+		v := d.pickNextVertex()
 		d.unvisited[v] = false
 	
 		//3. update distance
