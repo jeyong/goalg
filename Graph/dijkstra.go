@@ -6,6 +6,7 @@ import (
 
 const (
 	INF = 1000
+	UNCONN = -1
 )
 
 type Dijkstra struct {
@@ -16,10 +17,10 @@ type Dijkstra struct {
 }
 
 var graph  = [][]int {
-	{0, 2, 3, -1},
-	{-1, 0, 4, 2},
-	{-1, -1, 0, 3},
-	{-1, -1 -1, 0},
+	{0, 2, 3, UNCONN},
+	{UNCONN, 0, 4, 2},
+	{UNCONN, UNCONN, 0, 3},
+	{UNCONN, UNCONN, UNCONN, 0},
 }
 
 func (d *Dijkstra) Init(src, des, n int, graph [][]int) {
@@ -34,7 +35,7 @@ func (d *Dijkstra) Init(src, des, n int, graph [][]int) {
 func (d *Dijkstra) minVertex() int {
 	minVer := -1
 	min := INF 
-	for i:=0; i<4; i++ {
+	for i:=0; i<d.n-1; i++ {
 		if d.distance[i] < min && d.unvisited[i] == true {
 			min = d.distance[i]
 			minVer = i 
@@ -66,27 +67,10 @@ func (d *Dijkstra) findShortestPath(){
 }
 
 func main() {
-	//1. init
 	var d Dijkstra
+
+	//1. init
 	d.Init(0, 3, 4, graph)
 	d.findShortestPath()
 
-	/*
-	fmt.Println("d.distance: ", d.distance)
-	fmt.Println("d.unvisited: ", d.unvisited)
-	fmt.Println("d.graph: ", d.graph)
-
-	d.distance[0] = 0
-
-	for i:=0; i<4-1; i++ {
-		//2. choose vertex
-		v := minVertex(d)
-		fmt.Println("choose vertex : ", v)
-		d.unvisited[v] = false
-
-		//3. update distance
-		d.distance = updateDistance(v, d)
-	}
-	*/
-	//fmt.Println(d.distance)
 }
