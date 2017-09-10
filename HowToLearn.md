@@ -1,3 +1,9 @@
+## Data Structure & Algorithms with Go
+C에 비해서 알고리즘 자체에 집중할 수 있다.
+Go의 idiom을 배울 수 있다.
+작은 사이즈의 실제 production level의 코드를 여러개 만들어보면서 언어 자체를 익힐 수 있다.
+problem solving을 연습을 통해 job interview나 실제 프로젝트에 활용해 보기 바란다.
+
 ## 요령
 ### 어려운 이유
  * 2가지 장벽

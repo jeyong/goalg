@@ -4,13 +4,11 @@ import(
 	"fmt"
 )
 
-
 type Node struct {
 	value interface{}
 	left, right *Node
 	balfactor int8
 }
-
 
 func updateBalanceFactor(A *Node) (r int8) {
 	if A.left != nil && A.right != nil {
@@ -23,7 +21,43 @@ func updateBalanceFactor(A *Node) (r int8) {
 	return
 }
 
+func updateBF() {
+//관찰 
+/*
+언제 bf가 바뀌는가?
+bf가 바뀌는 것들의 특징이 있는가?
+그 rule을 찾아내면 쉽게 프로그래밍이 가능할텐데!
+
+알고리즘을 외우기 보다는
+현상을 관찰하고 거기에서 특징을 찾아내고 그것을 rule로 만들어 내는 방식을 연습해야한다!
+
+				   A
+			   B       C
+			D              E
+
+
+에서 'F'가 추가되는 경우
+				   A
+			   B       C
+			D     F        E
+B와 A의 bf값이 변경되게 된다. 다른 node의 bf는 변화가 없다.
+
+다른 경우는 어떻게 될까?
+
+*/
+
+	for(x := getParent(z); x != nil; x = getParent(z)){
+		z = x
+	}
+}
+
 func main() {
+/*
+		   A
+	    /    \
+     nil     nil
+*/
+
 	A := &Node{5, nil, nil, 0}
 
 /*
@@ -37,7 +71,6 @@ func main() {
 	fmt.Println("A :", A)
 	fmt.Println("B :", B)
 
-
 /*
 		   A
 	    /    \
@@ -48,3 +81,5 @@ func main() {
 	A.balfactor = updateBalanceFactor(A)
 	fmt.Println("A: ", A)
 }
+
+
