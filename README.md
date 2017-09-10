@@ -1,4 +1,9 @@
 ## Golang Data Structure & Algorithms
+### [How to Learn](HowToLearn.md)
+### Golang
+ * idiom
+ * unittest
+ * benchmark
 ### Stack & Queue
  * Stack
  * Queue
@@ -19,3 +24,4 @@
  * Testing
  * Benchmark
  * Performance
+### [Reference](Reference.md)

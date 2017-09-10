@@ -41,4 +41,17 @@
      * Breadth-First Order
        * root node에서 가장 가까운 node를 먼저 방문
        
- 
+### AVL
+ * Self-balancing tree
+   * 검색에 드는 비용을 최소화
+   * binary tree 구조를 효과적으로 활용
+ * BST insert
+   * 재수없으면 한쪽으로 skew한 tree형태가 될 수 있다.
+   * binary tree의 효과가 없음
+ * 최대한 balance를 유지한 tree를 만들려면!
+   * 무엇인가 추가 정보를 가지고 있어야만 할꺼 같다.
+   * 어떤 정보를 가지면 좋을까?
+ * 추가 정보
+   * 각 node 기준으로 자식들이 왼쪽 or 오른쪽으로 얼마나 skew한 상태인지 정보를 저장하고 있으면 되지 않을까?
+   * 왼쪽으로 depth가 더 깊다면 -(depth), 오른쪽으로 기울어졌다면 +(depth) 정보를 더 가지도록 하자!
+   * 

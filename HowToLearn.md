@@ -34,4 +34,12 @@
      * 절차 1
      * 절차 2
      * 반복을 위해 점프할 위치
-
+ * 특정 언어로 자료구조와 알고리즘 마스터 하기
+ * 새로운 언어로 자료구조와 알고리즘 도전
+   * 해당 언어의 idiom에 집중
+   * generic
+   * collection 구현 참조
+   * unittest
+   * benchmark 도구 습득
+ * Beyond 알고리즘
+   * concurrency 문제를 여러 언어로 해결해 보기
