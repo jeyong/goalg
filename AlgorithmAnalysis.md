@@ -24,3 +24,4 @@
 
 * 표기법
  * Big-O
+  * O(1), O(n), O(log n), O(n log n), O(n2), O(n3), O(2n), O(n!)
