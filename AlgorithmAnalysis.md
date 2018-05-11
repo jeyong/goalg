@@ -26,3 +26,5 @@
   * n이 커지면 차수가 가장 큰항에 따라  전체 값이 좌우되므로 가장 큰 차수 항만 표시
   * Big-O
     * O(1), O(n), O(log n), O(n log n), O(n2), O(n3), O(2n), O(n!)
+    * O(n) vs. O(log n)
+      * search vs. binary search
