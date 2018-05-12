@@ -13,6 +13,13 @@
    * 알고리즘에 입력의 길이에 따라 시간 복잡도나 공간 복잡도를 결정
    * 성능은 실제 성능에서 upper bound로 worst case 입력으로 결정
 
+
+ * 점근(asymptotic) vs. 정확(exact)
+   * 점근적 평가 (asymptotic estimation)
+     * 동일한 알고리즘에 대해서 구현이 달라지면 효율도 달라지니까
+     * 이런 차이를 무시하기 위해서
+   * 정확한 측정 (exact measure)
+
 ## 요약
  * 컴퓨터의 자원
    * CPU
