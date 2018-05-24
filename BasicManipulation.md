@@ -21,6 +21,11 @@
    * a & a = a
    * a | a = a 
    * a ^ a = 0
+ * bit get/set
+   * n번째 bit get
+   * and 연산 이용
+   * shift 연산 이용
+   
  * 정수 -> binary -> string
 
 ## String Manipulation
