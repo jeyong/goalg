@@ -28,7 +28,9 @@
    * n번재 bit set
      * or 연산 (1로 set)
      * and 연산 (0로 set)
- 
+ * bit print
+   * 1을 맨 왼쪽으로 보내고 
+   * 1/0인지 print하고 오른쪽으로 shift
  * 정수 -> binary -> string
 
 ## String Manipulation
