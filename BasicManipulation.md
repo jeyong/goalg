@@ -23,9 +23,12 @@
    * a ^ a = 0
  * bit get/set
    * n번째 bit get
-   * and 연산 이용
-   * shift 연산 이용
-   
+     * and 연산 이용
+     * shift 연산 이용
+   * n번재 bit set
+     * or 연산 (1로 set)
+     * and 연산 (0로 set)
+ 
  * 정수 -> binary -> string
 
 ## String Manipulation
