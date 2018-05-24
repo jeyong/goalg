@@ -35,6 +35,10 @@
 
 ## String Manipulation
  * len
+ * concatenate
+ * copy
  * replace
  * sub
- * 
+ * trim 
+ * => pointer 이용
+ 
