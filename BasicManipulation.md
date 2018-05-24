@@ -8,6 +8,7 @@
    * or
    * not
    * xor
+   * reverse
    * add/sub
 
 
