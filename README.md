@@ -1,5 +1,6 @@
 ## Golang Data Structure & Algorithms
 ### [How to Learn](HowToLearn.md)
+### [Basic Manipulation](BasicManipulation.md)
 ### [Algorithm Analysis](AlgorithmAnalysis.md)
 
 ### Golang
