@@ -11,7 +11,7 @@
    * shift
    * reverse
    * add/sub
-
+ * 정수 -> binary -> string
 
 ## String Manipulation
  * len
