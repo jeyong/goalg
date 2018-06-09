@@ -19,8 +19,11 @@
 ### Search
  * 
 ### Sorting
- * Merge sort
- * Quick sort
+ * Selection
+ * Bubble
+ * Insertion
+ * Merge
+ * Quick
 ### Tree
  * Binary Tree
  * Binary search tree
