@@ -16,6 +16,8 @@
 ### Stack & Queue
  * Stack
  * Queue
+### Search
+ * 
 ### Sorting
  * Merge sort
  * Quick sort
@@ -24,6 +26,8 @@
  * Binary search tree
  * AVL
  * Red-black tree
+### Heap
+ * 
 ### Graph
  * DFS(Depth first search)
  * BFS(Breadth first search)
