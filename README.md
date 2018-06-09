@@ -1,12 +1,18 @@
 ## Golang Data Structure & Algorithms
 ### [How to Learn](HowToLearn.md)
-### [Basic Manipulation](BasicManipulation.md)
-### [Algorithm Analysis](AlgorithmAnalysis.md)
 
 ### Golang
  * idiom
  * unittest
  * benchmark
+### Basic
+ * [Basic Manipulation](BasicManipulation.md)
+### Analysis
+ * [Algorithm Analysis](AlgorithmAnalysis.md)
+### Array & List
+ * 
+### Recursion
+ * 
 ### Stack & Queue
  * Stack
  * Queue
