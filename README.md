@@ -2,7 +2,7 @@
 ### [How to Learn](HowToLearn.md)
 
 ### Golang
- * idiom
+ * [Golang Workshop](https://github.com/jeyong/goworkshop)
  * unittest
  * benchmark
 ### Basic
