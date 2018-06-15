@@ -26,6 +26,8 @@
  * Quick
 ### Tree
  * Binary Tree
+ * Depth-First
+ * Breadth-First
  * Binary search tree
  * AVL
  * Red-black tree
