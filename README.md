@@ -32,7 +32,7 @@
  * AVL
  * Red-black tree
 ### Heap
- * 
+ * Priority Queue
 ### Graph
  * DFS(Depth first search)
  * BFS(Breadth first search)
