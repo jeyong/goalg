@@ -1,10 +1,16 @@
-## Sorting
+# Sorting
 
 ## 종류
- * Merge sort
- * Quick sort
+ * Selection
+ * Bubble
+ * Insertion
+ * Merge
+ * Quick
+----
 
-### Merge sort
+## Selection Sort
+
+## Merge Sort
 ![](../img/sorting/mergesort.png)
 
  * insertion sort보다 속도가 빠르다.
@@ -19,13 +25,14 @@
  * Divide : 반으로 나누기
  * Conquer : 반으로 나눈 부분에 대해서 sort
  * Merge : 합치기
+----
 
 
+## Array vs. Linked List 
 
-#### Array vs. Linked List 
+----
 
-
-### Quick sort
+## Quick sort
 ![](../img/sorting/quicksort.png)
 
 효율적인 정렬 알고리즘.
